@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Omar",
+  "age": 24,
+  "segment": "Back at work, baby in care",
+  "income": 104000,
+  "behaviour": "Already subscribed to an app",
+  "behaviour_how": "Pays monthly for a big fitness app and its postpartum plan.",
+  "objection": "I'll do the 5 free weeks and won't need the paid program",
+  "habit": "your baby naps for 30 to 60 minutes at a time"
+ },
+ {
+  "id": "P002",
+  "name": "Raj",
+  "age": 32,
+  "segment": "Back at work, baby in care",
+  "income": 85000,
+  "behaviour": "Starts strong, drops off",
+  "behaviour_how": "Buys programs in bursts of motivation, then stops when sleep or baby routines change.",
+  "objection": "There are free postpartum workouts on YouTube",
+  "habit": "your partner is home in the evenings after 6pm"
+ },
+ {
+  "id": "P003",
+  "name": "Emil",
+  "age": 41,
+  "segment": "Mum of two or more, stretched for time",
+  "income": 76000,
+  "behaviour": "Class-goer",
+  "behaviour_how": "Prefers mums-and-bubs classes for the social side and accountability.",
+  "objection": "I'll do the 5 free weeks and won't need the paid program",
+  "habit": "you go to a mums' group once a week"
+ },
+ {
+  "id": "P004",
+  "name": "Owen",
+  "age": 28,
+  "segment": "Back at work, baby in care",
+  "income": 122000,
+  "behaviour": "Physio-first",
+  "behaviour_how": "Saw or wants to see a women's health physio and trusts clinicians over influencers.",
+  "objection": "I'll do the 5 free weeks and won't need the paid program",
+  "habit": "you leak a little when you sneeze or jump"
+ },
+ {
+  "id": "P005",
+  "name": "Sana",
+  "age": 25,
+  "segment": "First-time mum on parental leave",
+  "income": 65000,
+  "behaviour": "Free YouTube user",
+  "behaviour_how": "Does free YouTube or Instagram workouts when she gets a moment; rarely pays for fitness.",
+  "objection": "I've bought programs before and never finished them",
+  "habit": "you leak a little when you sneeze or jump"
+ },
+ {
+  "id": "P006",
+  "name": "Maya",
+  "age": 36,
+  "segment": "First-time mum on parental leave",
+  "income": 62000,
+  "behaviour": "Already subscribed to an app",
+  "behaviour_how": "Pays monthly for a big fitness app and its postpartum plan.",
+  "objection": "I already pay for a fitness app",
+  "habit": "you scroll Instagram during night feeds"
+ },
+ {
+  "id": "P007",
+  "name": "Selin",
+  "age": 39,
+  "segment": "Back at work, baby in care",
+  "income": 117000,
+  "behaviour": "Class-goer",
+  "behaviour_how": "Prefers mums-and-bubs classes for the social side and accountability.",
+  "objection": "I can't find 45 minutes a day with a baby",
+  "habit": "your baby naps for 30 to 60 minutes at a time"
+ },
+ {
+  "id": "P008",
+  "name": "Ruby",
+  "age": 26,
+  "segment": "First-time mum on parental leave",
+  "income": 94000,
+  "behaviour": "Instagram follower",
+  "behaviour_how": "Follows mum-fitness creators and buys programs they recommend.",
+  "objection": "I already pay for a fitness app",
+  "habit": "your baby naps for 30 to 60 minutes at a time"
+ },
+ {
+  "id": "P009",
+  "name": "Nora",
+  "age": 27,
+  "segment": "Mum of two or more, stretched for time",
+  "income": 74000,
+  "behaviour": "Already subscribed to an app",
+  "behaviour_how": "Pays monthly for a big fitness app and its postpartum plan.",
+  "objection": "I can't find 45 minutes a day with a baby",
+  "habit": "you scroll Instagram during night feeds"
+ },
+ {
+  "id": "P010",
+  "name": "Fatima",
+  "age": 24,
+  "segment": "First-time mum on parental leave",
+  "income": 71000,
+  "behaviour": "Instagram follower",
+  "behaviour_how": "Follows mum-fitness creators and buys programs they recommend.",
+  "objection": "I'll do the 5 free weeks and won't need the paid program",
+  "habit": "you scroll Instagram during night feeds"
+ },
+ {
+  "id": "P011",
+  "name": "Tariq",
+  "age": 35,
+  "segment": "Mum of two or more, stretched for time",
+  "income": 93000,
+  "behaviour": "Free YouTube user",
+  "behaviour_how": "Does free YouTube or Instagram workouts when she gets a moment; rarely pays for fitness.",
+  "objection": "I can't find 45 minutes a day with a baby",
+  "habit": "your baby naps for 30 to 60 minutes at a time"
+ },
+ {
+  "id": "P012",
+  "name": "Felix",
+  "age": 36,
+  "segment": "First-time mum on parental leave",
+  "income": 48000,
+  "behaviour": "Physio-first",
+  "behaviour_how": "Saw or wants to see a women's health physio and trusts clinicians over influencers.",
+  "objection": "Is this safe for my diastasis and pelvic floor? Who designed it?",
+  "habit": "you go to a mums' group once a week"
+ },
+ {
+  "id": "P013",
+  "name": "Zoe",
+  "age": 35,
+  "segment": "Back at work, baby in care",
+  "income": 103000,
+  "behaviour": "Starts strong, drops off",
+  "behaviour_how": "Buys programs in bursts of motivation, then stops when sleep or baby routines change.",
+  "objection": "I can't find 45 minutes a day with a baby",
+  "habit": "your partner is home in the evenings after 6pm"
+ },
+ {
+  "id": "P014",
+  "name": "Dev",
+  "age": 38,
+  "segment": "Mum of two or more, stretched for time",
+  "income": 84000,
+  "behaviour": "Physio-first",
+  "behaviour_how": "Saw or wants to see a women's health physio and trusts clinicians over influencers.",
+  "objection": "Is this safe for my diastasis and pelvic floor? Who designed it?",
+  "habit": "you scroll Instagram during night feeds"
+ },
+ {
+  "id": "P015",
+  "name": "Yusuf",
+  "age": 28,
+  "segment": "Mum of two or more, stretched for time",
+  "income": 57000,
+  "behaviour": "Class-goer",
+  "behaviour_how": "Prefers mums-and-bubs classes for the social side and accountability.",
+  "objection": "Is this safe for my diastasis and pelvic floor? Who designed it?",
+  "habit": "you go to a mums' group once a week"
+ },
+ {
+  "id": "P016",
+  "name": "Theo",
+  "age": 39,
+  "segment": "First-time mum on parental leave",
+  "income": 86000,
+  "behaviour": "Free YouTube user",
+  "behaviour_how": "Does free YouTube or Instagram workouts when she gets a moment; rarely pays for fitness.",
+  "objection": "There are free postpartum workouts on YouTube",
+  "habit": "you leak a little when you sneeze or jump"
+ },
+ {
+  "id": "P017",
+  "name": "Alma",
+  "age": 24,
+  "segment": "First-time mum on parental leave",
+  "income": 51000,
+  "behaviour": "Free YouTube user",
+  "behaviour_how": "Does free YouTube or Instagram workouts when she gets a moment; rarely pays for fitness.",
+  "objection": "I'll do the 5 free weeks and won't need the paid program",
+  "habit": "you go to a mums' group once a week"
+ },
+ {
+  "id": "P018",
+  "name": "Freya",
+  "age": 28,
+  "segment": "Mum of two or more, stretched for time",
+  "income": 98000,
+  "behaviour": "Instagram follower",
+  "behaviour_how": "Follows mum-fitness creators and buys programs they recommend.",
+  "objection": "I can't find 45 minutes a day with a baby",
+  "habit": "you leak a little when you sneeze or jump"
+ },
+ {
+  "id": "P019",
+  "name": "Harper",
+  "age": 33,
+  "segment": "First-time mum on parental leave",
+  "income": 94000,
+  "behaviour": "Starts strong, drops off",
+  "behaviour_how": "Buys programs in bursts of motivation, then stops when sleep or baby routines change.",
+  "objection": "I can't find 45 minutes a day with a baby",
+  "habit": "you go to a mums' group once a week"
+ },
+ {
+  "id": "P020",
+  "name": "Emma",
+  "age": 40,
+  "segment": "Mum of two or more, stretched for time",
+  "income": 76000,
+  "behaviour": "Free YouTube user",
+  "behaviour_how": "Does free YouTube or Instagram workouts when she gets a moment; rarely pays for fitness.",
+  "objection": "There are free postpartum workouts on YouTube",
+  "habit": "you go to a mums' group once a week"
+ }
+]

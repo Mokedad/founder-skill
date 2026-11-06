@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I'd try the free 5 weeks, but I'm leaking when I sneeze, so I want a women's health physio telling me what to do, not a program from a mum on Instagram. 45 minutes a day of 3x10 also isn't going to fit around work and a baby.",
+  "objection": "It's made by a mum who's been through it, not a pelvic floor physio. With leaking I'm scared of doing core work wrong and making it worse, and nothing says a clinician designed or checked it.",
+  "would_change_my_mind": "If a women's health physio designed or endorsed the 8-week program, or my physio said it was safe and useful for me after I finished the free weeks.",
+  "price_too_cheap": 5,
+  "price_cheap": 15,
+  "price_expensive": 40,
+  "price_too_expensive": 80
+}

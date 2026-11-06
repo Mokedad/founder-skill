@@ -1,0 +1,83 @@
+{
+  "business": "Mama Fit (online postpartum strength program)",
+  "unit": "one paid 8-week program sale",
+  "price": 19.99,
+  "variable": [
+    {
+      "label": "Card processing, Stripe domestic card (estimate ~1.7% + $0.30)",
+      "cost": 0.64
+    },
+    {
+      "label": "Instagram ads per paid sale (estimate, unknown until tested)",
+      "cost": 6.0
+    },
+    {
+      "label": "Refunds, 14-day guarantee reserve 10% (estimate)",
+      "cost": 2.0
+    }
+  ],
+  "fixed_monthly": [
+    {
+      "label": "Stan Store Creator plan, US$29 (~A$44), per ops.md",
+      "cost": 44
+    },
+    {
+      "label": "Email, Kit free plan",
+      "cost": 0
+    },
+    {
+      "label": "Private group, free WhatsApp/Facebook",
+      "cost": 0
+    },
+    {
+      "label": "Fitness liability insurance, from A$190/yr (~A$16/mo), per ops.md",
+      "cost": 16
+    },
+    {
+      "label": "Video hosting (Bunny Stream, optional) + domain/misc (estimate)",
+      "cost": 12
+    }
+  ],
+  "startup": [
+    {
+      "label": "Women's health physio review of the program (estimate)",
+      "cost": 1500
+    },
+    {
+      "label": "Filming kit: tripod, mic, lighting (estimate)",
+      "cost": 400
+    },
+    {
+      "label": "Web app setup / templates (estimate)",
+      "cost": 300
+    },
+    {
+      "label": "Legal: terms, disclaimer template (estimate)",
+      "cost": 300
+    },
+    {
+      "label": "Launch ads (estimate)",
+      "cost": 300
+    },
+    {
+      "label": "Cert III in Fitness, likely needed to be insured (estimate, get a quote)",
+      "cost": 1500
+    }
+  ],
+  "days_per_month": 30,
+  "plan_per_day": 1.0,
+  "ramp_per_day": [
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.0
+  ]
+}

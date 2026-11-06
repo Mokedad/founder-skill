@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already pay every month for a fitness app that has a postpartum plan, so I don't need a second program. I might save the free one, but 45 minutes a day with a newborn isn't happening, and I wouldn't get far enough to pay for the 8-week one.",
+  "objection": "I already pay for a fitness app, so why would I pay for another one, especially one from someone I don't know with no physio behind it?",
+  "would_change_my_mind": "If it was clearly made with a pelvic floor physio and the sessions were 15 to 20 minutes, and it did more for my tummy gap than my current app, I'd cancel that and switch to this.",
+  "price_too_cheap": 5,
+  "price_cheap": 12,
+  "price_expensive": 30,
+  "price_too_expensive": 50
+}

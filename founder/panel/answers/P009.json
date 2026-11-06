@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already pay every month for a big fitness app that has a postpartum plan, and I barely use that one. Paying for a second program to do the same thing doesn't make sense. I might grab the free week at 2am, but I don't think I'd pay the $19.99.",
+  "objection": "It's the same thing I've already got in my app. And with two little ones, 4 days a week still feels like a lot. What's going to make me actually stick with this one?",
+  "would_change_my_mind": "If the free week showed me it was clearly better for my tummy gap and pelvic floor than my app, like a physio actually checking my progress or the check-ins really keeping me going, I'd cancel the app and switch to this.",
+  "price_too_cheap": 5,
+  "price_cheap": 12,
+  "price_expensive": 35,
+  "price_too_expensive": 60
+}

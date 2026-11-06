@@ -1,0 +1,87 @@
+{
+ "n": 20,
+ "seed": 7,
+ "customer": {
+  "business": "Mama Fit (online postpartum home strength program; profile is a guess until interviews are done)",
+  "target": "Australian mums 6 weeks to 18 months postpartum, cleared to exercise, who want to rebuild core, pelvic floor and overall strength at home",
+  "where": "Australia, online; found through Instagram",
+  "age": [
+   24,
+   42
+  ],
+  "segments": [
+   {
+    "name": "First-time mum on parental leave",
+    "share": 0.4,
+    "income": [
+     40000,
+     95000
+    ]
+   },
+   {
+    "name": "Mum of two or more, stretched for time",
+    "share": 0.35,
+    "income": [
+     50000,
+     120000
+    ]
+   },
+   {
+    "name": "Back at work, baby in care",
+    "share": 0.25,
+    "income": [
+     60000,
+     150000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Free YouTube user",
+    "share": 0.25,
+    "how": "Does free YouTube or Instagram workouts when she gets a moment; rarely pays for fitness."
+   },
+   {
+    "name": "Already subscribed to an app",
+    "share": 0.15,
+    "how": "Pays monthly for a big fitness app and its postpartum plan."
+   },
+   {
+    "name": "Physio-first",
+    "share": 0.15,
+    "how": "Saw or wants to see a women's health physio and trusts clinicians over influencers."
+   },
+   {
+    "name": "Instagram follower",
+    "share": 0.15,
+    "how": "Follows mum-fitness creators and buys programs they recommend."
+   },
+   {
+    "name": "Class-goer",
+    "share": 0.15,
+    "how": "Prefers mums-and-bubs classes for the social side and accountability."
+   },
+   {
+    "name": "Starts strong, drops off",
+    "share": 0.15,
+    "how": "Buys programs in bursts of motivation, then stops when sleep or baby routines change."
+   }
+  ],
+  "objections": [
+   "I can't find 45 minutes a day with a baby",
+   "There are free postpartum workouts on YouTube",
+   "Is this safe for my diastasis and pelvic floor? Who designed it?",
+   "I already pay for a fitness app",
+   "I'll do the 5 free weeks and won't need the paid program",
+   "I've bought programs before and never finished them"
+  ],
+  "habits": [
+   "you scroll Instagram during night feeds",
+   "your baby naps for 30 to 60 minutes at a time",
+   "you go to a mums' group once a week",
+   "your partner is home in the evenings after 6pm",
+   "you leak a little when you sneeze or jump"
+  ]
+ },
+ "pitch": "Mama Fit Core Comeback: an 8-week home program for mums after birth, made by a mum of three and reviewed by a women's health physio.\nNap-sized sessions: 15 to 20 minutes, 4 days a week, for your pelvic floor, tummy gap (diastasis), core, legs and arms. Each exercise shows an easier option, and a guide shows when to stop and see a physio.\nStart with a free 1-week quick start (4 sessions). The full 8 weeks is a one-off AUD 19.99, no subscription.\nIncludes a diastasis self-check video, a small private group of mums starting the same week, and a weekly check-in from the founder. Miss a day and you pick up where you left off.\n14-day money-back guarantee. Founding group starts 1 December 2026, limited to 30 mums because the founder does every check-in herself.\nCheck with your GP or physio before starting."
+}

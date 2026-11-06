@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I'd probably grab the free 5 weeks in a burst of motivation, but 45 minutes a day with a full-time job and a baby isn't happening, and I'd drop off well before I ever got to the paid part. Twenty bucks isn't the issue, the time is.",
+  "objection": "I can't find 45 minutes a day with a baby. Evenings after 6 are the only window and that's dinner, bath and bed.",
+  "would_change_my_mind": "A 15-20 minute version I could do three times a week after the baby's down, so it fits my real week and I'd actually finish the free bit.",
+  "price_too_cheap": 5,
+  "price_cheap": 15,
+  "price_expensive": 40,
+  "price_too_expensive": 70
+}

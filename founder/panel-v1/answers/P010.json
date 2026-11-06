@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I'd definitely sign up for the free 5 weeks from my feed during a night feed, but that's a month of content right there and I'm not paying for the next bit until I've actually finished it. Honestly, with a newborn, 45 minutes a day is a stretch and I'd probably still be on week 2 or 3 at the end of the month.",
+  "objection": "The free 5 weeks already covers what I need, and I can't see what the paid 8 weeks gives me that YouTube and the creators I follow don't. Plus 45 minutes a day with a baby feels unrealistic.",
+  "would_change_my_mind": "A mum-fitness creator I already follow showing her results from the paid 8 weeks, with shorter 15-20 minute sessions I could fit into nap time.",
+  "price_too_cheap": 5,
+  "price_cheap": 12,
+  "price_expensive": 30,
+  "price_too_expensive": 50
+}

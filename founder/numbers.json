@@ -18,28 +18,24 @@
   ],
   "fixed_monthly": [
     {
-      "label": "Web app / course platform (estimate)",
-      "cost": 60
+      "label": "Stan Store Creator plan, US$29 (~A$44), per ops.md",
+      "cost": 44
     },
     {
-      "label": "Video hosting, private (estimate)",
-      "cost": 25
-    },
-    {
-      "label": "Email tool (estimate)",
-      "cost": 20
-    },
-    {
-      "label": "Fitness professional liability insurance (estimate)",
-      "cost": 35
-    },
-    {
-      "label": "Domain, misc software (estimate)",
-      "cost": 10
-    },
-    {
-      "label": "Private group (free Facebook/WhatsApp group)",
+      "label": "Email, Kit free plan",
       "cost": 0
+    },
+    {
+      "label": "Private group, free WhatsApp/Facebook",
+      "cost": 0
+    },
+    {
+      "label": "Fitness liability insurance, from A$190/yr (~A$16/mo), per ops.md",
+      "cost": 16
+    },
+    {
+      "label": "Video hosting (Bunny Stream, optional) + domain/misc (estimate)",
+      "cost": 12
     }
   ],
   "startup": [
@@ -62,6 +58,10 @@
     {
       "label": "Launch ads (estimate)",
       "cost": 300
+    },
+    {
+      "label": "Cert III in Fitness, likely needed to be insured (estimate, get a quote)",
+      "cost": 1500
     }
   ],
   "days_per_month": 30,

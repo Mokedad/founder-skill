@@ -6,7 +6,7 @@
 
 - **Buyers (simulated, offer v2):** acceptable range AUD 7 to 49. "Bargain" median $15, "getting expensive" median $40 (`pricing-curve.md`). Both $19.99 and $29.99 sit comfortably inside it. These are simulated answers, so use them to choose what to test, not as proof.
 - **Competitors:** 8 weeks of a paid postpartum program costs AUD 44 (KIC, 2 months) to AUD 199 (Find Your Balance, one-off), median about AUD 99 (`competitors.md`). Most are subscriptions. Mama Fit at $19.99 or $29.99 one-off is the cheapest paid option and the only low-cost one with no subscription. Free YouTube programs cost $0.
-- **Margin (CFO tool):** $19.99 gives year 1 profit of about $464, a 32% margin. $29.99 gives about $2,459, 55%. $24.99 gives about $1,462, 45%. Price is the biggest lever the founder controls.
+- **Margin (CFO tool):** $19.99 gives year 1 profit of about $1,400, a 45% margin. $24.99 gives about $2,398 (56%). $29.99 gives about $3,395 (63%). Price is the biggest lever the founder controls.
 - **Why not stay at $19.99:** a lower price doesn't win buyers who would otherwise pay $99. In the panel, people said no because of habit and trust, not price. Only 1 of 20 in panel v1 and 0 in panel v2 gave price as the reason.
 
 ## The ladder

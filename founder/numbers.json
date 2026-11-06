@@ -3,25 +3,81 @@
   "unit": "one paid 8-week program sale",
   "price": 19.99,
   "variable": [
-    {"label": "Card processing, Stripe domestic card (estimate ~1.7% + $0.30)", "cost": 0.64},
-    {"label": "Instagram ads per paid sale (estimate, unknown until tested)", "cost": 6.00},
-    {"label": "Refunds and guarantee reserve, 5% (estimate)", "cost": 1.00}
+    {
+      "label": "Card processing, Stripe domestic card (estimate ~1.7% + $0.30)",
+      "cost": 0.64
+    },
+    {
+      "label": "Instagram ads per paid sale (estimate, unknown until tested)",
+      "cost": 6.0
+    },
+    {
+      "label": "Refunds, 14-day guarantee reserve 10% (estimate)",
+      "cost": 2.0
+    }
   ],
   "fixed_monthly": [
-    {"label": "Web app / course platform (estimate)", "cost": 60},
-    {"label": "Video hosting, private (estimate)", "cost": 25},
-    {"label": "Email tool (estimate)", "cost": 20},
-    {"label": "Fitness professional liability insurance (estimate)", "cost": 35},
-    {"label": "Domain, misc software (estimate)", "cost": 10}
+    {
+      "label": "Web app / course platform (estimate)",
+      "cost": 60
+    },
+    {
+      "label": "Video hosting, private (estimate)",
+      "cost": 25
+    },
+    {
+      "label": "Email tool (estimate)",
+      "cost": 20
+    },
+    {
+      "label": "Fitness professional liability insurance (estimate)",
+      "cost": 35
+    },
+    {
+      "label": "Domain, misc software (estimate)",
+      "cost": 10
+    },
+    {
+      "label": "Private group (free Facebook/WhatsApp group)",
+      "cost": 0
+    }
   ],
   "startup": [
-    {"label": "Women's health physio review of the program (estimate)", "cost": 1500},
-    {"label": "Filming kit: tripod, mic, lighting (estimate)", "cost": 400},
-    {"label": "Web app setup / templates (estimate)", "cost": 300},
-    {"label": "Legal: terms, disclaimer template (estimate)", "cost": 300},
-    {"label": "Launch ads (estimate)", "cost": 300}
+    {
+      "label": "Women's health physio review of the program (estimate)",
+      "cost": 1500
+    },
+    {
+      "label": "Filming kit: tripod, mic, lighting (estimate)",
+      "cost": 400
+    },
+    {
+      "label": "Web app setup / templates (estimate)",
+      "cost": 300
+    },
+    {
+      "label": "Legal: terms, disclaimer template (estimate)",
+      "cost": 300
+    },
+    {
+      "label": "Launch ads (estimate)",
+      "cost": 300
+    }
   ],
   "days_per_month": 30,
   "plan_per_day": 1.0,
-  "ramp_per_day": [0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.0]
+  "ramp_per_day": [
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.0
+  ]
 }

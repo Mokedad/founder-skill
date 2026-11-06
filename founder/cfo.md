@@ -1,8 +1,8 @@
 # CFO note (read this first)
 
-- **The margin:** each AUD 19.99 sale leaves about **$10.35** after card fees, ads and the refund reserve. At 1 sale a day the profit margin is **32%**.
-- **Break-even:** fixed costs are only $150 a month, so about **15 sales a month** covers them (the tool rounds this up to "1 a day").
-- **The line to watch: ad cost per sale.** It is a $6 guess. At $12 a sale, contribution falls to about $4 and the business barely breaks even. Find the real number in the pre-sale.
+- **The margin:** each AUD 19.99 sale leaves about **$11.35** after card fees, ads and the refund reserve. At 1 sale a day the profit margin is **32%**.
+- **Break-even:** fixed costs are only $150 a month, so about **14 sales a month** covers them (the tool rounds this up to "1 a day").
+- **The line to watch: ad cost per sale.** It is a $6 guess. At $12 a sale, contribution falls to about $5 and break-even rises to about 30 sales a month. Find the real number in the pre-sale.
 - **Cash:** about **$3,200** is needed before it pays for itself, mostly the physio review (~$1,500), which is the board's top condition.
 - **Year 1:** about **+$460** operating profit, which doesn't earn back the $2,800 startup spend in year 1. **Your own time is not counted.** The weekly check-ins cost you hours, not dollars.
 - **Three ways to improve it** (tool what-ifs):

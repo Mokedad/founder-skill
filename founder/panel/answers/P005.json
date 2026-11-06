@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "habit",
-  "reason": "I'd probably start the free 5 weeks because my leaking bugs me, but 45 minutes a day with a newborn isn't happening and I've never finished a program yet. Even if I got through it, I'd just go back to free YouTube rather than pay for the 8-week one.",
-  "objection": "45 minutes a day is way too long for me right now, and I know I'll drop off after a couple of weeks like I always do, so paying for more feels pointless.",
-  "would_change_my_mind": "If the sessions were 10-15 minutes I could do during a nap, and I actually finished the free 5 weeks and noticed less leaking, I'd pay the $19.99.",
+  "reason": "I'd probably grab the free week because the leaking does bug me, but I know myself: I'd do two sessions, the baby would have a bad week, and I'd drift back to free YouTube pelvic floor videos instead of paying.",
+  "objection": "I've bought programs before and never finished them, and there's heaps of free postpartum core stuff on YouTube already, so why pay for this one?",
+  "would_change_my_mind": "If I actually finished the free week and noticed I was leaking less when I sneeze, I'd pay the $19.99 for the rest.",
   "price_too_cheap": 5,
-  "price_cheap": 10,
-  "price_expensive": 25,
-  "price_too_expensive": 40
+  "price_cheap": 12,
+  "price_expensive": 30,
+  "price_too_expensive": 50
 }

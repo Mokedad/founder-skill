@@ -1,13 +1,13 @@
 {
   "id": "P013",
-  "buys": false,
-  "purchases_first_month": 0,
+  "buys": true,
+  "purchases_first_month": 1,
   "reason_code": "convenience",
-  "reason": "I'd probably grab the free 5 weeks in a burst of motivation, but 45 minutes a day with a full-time job and a baby isn't happening, and I'd drop off well before I ever got to the paid part. Twenty bucks isn't the issue, the time is.",
-  "objection": "I can't find 45 minutes a day with a baby. Evenings after 6 are the only window and that's dinner, bath and bed.",
-  "would_change_my_mind": "A 15-20 minute version I could do three times a week after the baby's down, so it fits my real week and I'd actually finish the free bit.",
+  "reason": "15 to 20 minutes I can actually do, either at nap time or after 6 when my partner's home, and twenty bucks after a free week is nothing. I'll do the free week, and if I get through it I'll pay. That's how I always start things.",
+  "objection": "I know me. I'll go hard for two weeks and then a sleep regression or a daycare bug will knock me off, and I'll stop. I'm not sure a group chat and a weekly check-in will be enough to get me back on.",
+  "would_change_my_mind": "",
   "price_too_cheap": 5,
   "price_cheap": 15,
-  "price_expensive": 40,
-  "price_too_expensive": 70
+  "price_expensive": 49,
+  "price_too_expensive": 89
 }

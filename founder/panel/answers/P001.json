@@ -2,12 +2,12 @@
   "id": "P001",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "need",
-  "reason": "I already pay every month for a big fitness app that has a postpartum plan, so I don't need another one. I might try the free 5 weeks out of curiosity, but that's 5 weeks of free stuff before I'd even think about paying, and I'd probably stop there.",
-  "objection": "45 minutes a day doesn't fit when the baby only naps 30 to 60 minutes. My app already does shorter sessions, so I can't see what the $19.99 gets me that I'm not already paying for.",
-  "would_change_my_mind": "If my GP or physio pointed me to it for my diastasis because it does more than my current app's postpartum plan, with shorter 20-minute sessions I could actually finish during a nap.",
+  "reason_code": "habit",
+  "reason": "I already pay every month for a big fitness app that has a postpartum plan, and I'm using it in my baby's naps. I'd probably grab the free week to try it, but I can't see why I'd pay for a second program that does the same job.",
+  "objection": "It overlaps with what I already have. Twenty bucks isn't the issue. I don't want two programs and I'm not going to switch away from the app I'm used to for something from one person.",
+  "would_change_my_mind": "If the free week showed the physio-reviewed diastasis check and the founder's weekly check-ins actually fixed my tummy gap where my current app's generic plan hasn't, I'd pay for the full 8 weeks.",
   "price_too_cheap": 5,
-  "price_cheap": 12,
+  "price_cheap": 15,
   "price_expensive": 35,
   "price_too_expensive": 60
 }

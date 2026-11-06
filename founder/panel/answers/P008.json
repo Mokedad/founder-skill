@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "habit",
-  "reason": "I already pay for a fitness app and I follow mum-fitness creators I trust, so a program from someone I've never heard of isn't going to get my money. I might poke at the free 5 weeks, but the paid bit wouldn't even come up in the first month.",
-  "objection": "45 minutes a day just doesn't happen when her naps are 30 to 60 minutes and I'm also trying to shower and eat. And I'm not sure it's different enough from what my current app already has.",
-  "would_change_my_mind": "A creator I already follow recommending it, plus shorter 15-20 minute sessions I could finish in one nap.",
-  "price_too_cheap": 5,
+  "reason": "I already pay for a fitness app that has a postnatal section, and the programs I actually buy come from mum creators I've followed for months, not someone I've just scrolled past. I might grab the free week, but I doubt I'd pay for a second thing when I barely finish the one I have.",
+  "objection": "I already pay for a fitness app, and I don't know this mum of three. 'Reviewed by a physio' sounds nice, but I don't know who that physio is or if it's any different from what I've already got.",
+  "would_change_my_mind": "One of the mum-fitness creators I follow posting about doing it herself, or my own physio recommending it, especially if it clearly fixed the tummy gap better than my current app.",
+  "price_too_cheap": 7,
   "price_cheap": 15,
-  "price_expensive": 39,
-  "price_too_expensive": 69
+  "price_expensive": 49,
+  "price_too_expensive": 89
 }

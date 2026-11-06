@@ -1,13 +1,13 @@
 {
   "id": "P018",
-  "buys": false,
-  "purchases_first_month": 0,
-  "reason_code": "convenience",
-  "reason": "The leaking when I sneeze is real and $19.99 is nothing, so I'd probably grab the free 5 weeks. But 45 minutes a day with two little ones isn't happening, I'd drop off by week two and never get to the paid bit.",
-  "objection": "I can't find 45 minutes a day with a baby. And I'd want to know a pelvic floor physio has signed off on it, not just another mum.",
-  "would_change_my_mind": "A 15-minute daily version I can do during nap time, recommended by a creator or women's health physio I already follow.",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "I'm leaking when I sneeze and I genuinely can't do 45 minutes, so 15 to 20 minutes during a nap actually fits my day. The free week costs me nothing and $19.99 is less than a takeaway dinner, so if the first week feels doable I'd just pay for it.",
+  "objection": "I've never heard of this founder and none of the creators I follow have recommended it, so I'm not sure it's any better than the free stuff on Instagram, and I worry I'll do two sessions and then fall off like always.",
+  "would_change_my_mind": "",
   "price_too_cheap": 5,
   "price_cheap": 15,
   "price_expensive": 49,
-  "price_too_expensive": 99
+  "price_too_expensive": 89
 }

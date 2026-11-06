@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I'd sign up for the free 5 weeks, but honestly I'll do it a couple of times then drift. I'm a class person, I turn up because the other mums are there, not because a video is waiting on my phone. 45 minutes a day at home with two kids just isn't happening.",
+  "objection": "No one is checking in on me or expecting me, so I won't stick with it, and by the time the free 5 weeks are done I won't have finished it, let alone want to pay for more.",
+  "would_change_my_mind": "A group element, like a weekly live session or a small mums' group doing the 8 weeks together with check-ins, and shorter 20-minute sessions.",
+  "price_too_cheap": 5,
+  "price_cheap": 12,
+  "price_expensive": 35,
+  "price_too_expensive": 60
+}

@@ -27,7 +27,7 @@ export function Unlock() {
         </ul>
         <p className="small muted">No subscription and nothing renews. Full refund within 14 days, no questions.</p>
         {paid ? (
-          <a className="btn primary" href="#/today">Back to today</a>
+          <a className="btn primary" href="#today">Back to today</a>
         ) : (
           <button
             className="btn primary"
@@ -81,7 +81,7 @@ export function Account() {
           {p.weeksPostpartum} weeks after birth · {p.birthType === 'caesarean' ? 'caesarean' : 'vaginal birth'} ·{' '}
           {p.paidAt ? 'full program' : 'free week'}
         </p>
-        <a className="btn secondary" href="#/check">Redo the quick check</a>
+        <a className="btn secondary" href="#check">Redo the quick check</a>
       </div>
       <div className="card">
         <h3>Your data</h3>

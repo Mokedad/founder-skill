@@ -18,7 +18,7 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
   const vis = loc => loc.waitFor({ timeout: 4000 }).then(() => true).catch(() => false);
 
   // F01-N1: red flag path
-  await page.goto(base + '#/');
+  await page.goto(base);
   await shot('S01-welcome');
   await link('Start the free week').click();
   await page.getByLabel('Weeks').fill('4');
@@ -27,11 +27,11 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
   await btn('Not yet').click(); await btn('Next').click();
   await btn('None of these').click(); await btn('Next').click();
   await btn('See my plan').click();
-  await page.waitForURL(/#\/physio/);
+  await page.waitForURL(/#physio/);
   check('F01-N1 red flags go to physio', await vis(page.getByText('less than 6 weeks')));
   await shot('S03-physio');
-  await page.goto(base + '#/today');
-  check('F01-N2 physio hold blocks Today', await page.waitForURL(/#\/physio/, { timeout: 4000 }).then(() => true).catch(() => false));
+  await page.goto(base + '#today');
+  check('F01-N2 physio hold blocks Today', await page.waitForURL(/#physio/, { timeout: 4000 }).then(() => true).catch(() => false));
   await btn("I've been cleared now: redo my quick check").click();
 
   // F01-H1: happy path
@@ -42,17 +42,17 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
   await btn('Leaking when I cough, sneeze or jump').click(); await btn('Next').click();
   await shot('S02-quick-check');
   await btn('See my plan').click();
-  await page.waitForURL(/#\/self-check/);
+  await page.waitForURL(/#self-check/);
   await btn('2').click(); await btn('Yes').click();
   await shot('S04-self-check');
   await btn('Save').click();
-  await page.waitForURL(/#\/today/);
+  await page.waitForURL(/#today/);
   await shot('S05-today');
   check('F01-H1 reaches Today', await vis(page.getByRole('heading', { name: 'Ready when the baby naps.' })));
 
   // F02: daily session with "this hurts"
   await startLink().click(); await page.getByText(/^Move 1 of/).waitFor();
-  await page.waitForURL(/#\/session\/1/);
+  await page.waitForURL(/#session-1/);
   await btn('Set 1').click({ trial: true }).catch(() => {});
   await shot('S06-player');
   for (let k = 0; k < 2; k++) await btn('Next move').click();
@@ -63,12 +63,12 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
   check('F02-E2 easier option toggles on', await page.getByLabel('Easier option').isChecked());
   while (await btn('Next move').isVisible()) await btn('Next move').click();
   await btn('Finish').click();
-  await page.waitForURL(/#\/feel\/1/);
+  await page.waitForURL(/#feel-1/);
   check('F02-E3 pain preselected after this hurts', (await btn('Yes').nth(2).getAttribute('aria-pressed')) === 'true');
   await btn('Yes').nth(0).click(); await btn('No').nth(1).click(); await btn('About right').click();
   await shot('S07-feel');
   await btn('Save').click();
-  await page.waitForURL(/#\/today/);
+  await page.waitForURL(/#today/);
 
   // second flagged session -> care notice
   await startLink().click(); await page.getByText(/^Move 1 of/).waitFor();
@@ -99,16 +99,16 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
 
   // F04: free week -> unlock
   check('F04-H1 unlock card after 4 sessions', await vis(page.getByRole('heading', { name: 'Keep going: weeks 2 to 8' })));
-  await page.goto(base + '#/session/5');
-  check('F04-N1 locked session redirects to unlock', /#\/unlock/.test(page.url()) || (await page.waitForURL(/#\/unlock/).then(() => true).catch(() => false)));
+  await page.goto(base + '#session-5');
+  check('F04-N1 locked session redirects to unlock', /#unlock/.test(page.url()) || (await page.waitForURL(/#unlock/).then(() => true).catch(() => false)));
   await shot('S12-unlock');
   await btn('Unlock (demo: no payment is taken)').click();
-  await page.waitForURL(/#\/today/);
+  await page.waitForURL(/#today/);
   check('F04-H2 session 5 open after unlock', await vis(page.getByText('Session 5 of 32')));
 
   // F03: skipping ahead is blocked, nothing resets
-  await page.goto(base + '#/session/20');
-  await page.waitForURL(/#\/today/);
+  await page.goto(base + '#session-20');
+  await page.waitForURL(/#today/);
   check('F03-N1 cannot jump ahead', true);
 
   // Program, progress, group, check-in
@@ -121,7 +121,7 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
   await btn('Post').click();
   check('S10 post appears', await vis(page.getByText('Did my first session in the 2pm nap 🎉')));
   await shot('S10-group');
-  await page.goto(base + '#/checkin');
+  await page.goto(base + '#checkin');
   await page.getByLabel('Your answer').fill('Sleep regression, but I did 4.');
   await btn('Send').click();
   check('S11 check-in saves', await vis(page.getByText('Sent. Thank you!')));
@@ -131,29 +131,29 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
   check('Persistence after reload', await page.getByLabel('Your answer').inputValue() === 'Sleep regression, but I did 4.');
 
   // Redo quick check keeps payment
-  await page.goto(base + '#/check');
+  await page.goto(base + '#check');
   await page.getByLabel('Weeks').fill('13'); await btn('Next').click();
   await btn('Vaginal birth').click(); await btn('Next').click();
   await btn('Yes').click(); await btn('Next').click();
   await btn('None of these').click(); await btn('Next').click(); await btn('See my plan').click();
-  await page.goto(base + '#/unlock');
+  await page.goto(base + '#unlock');
   check('Redo quick check keeps payment', await vis(page.getByRole('heading', { name: 'You have the full program.' })));
 
   // F06: delete
-  await page.goto(base + '#/account'); await shot('S13-account');
+  await page.goto(base + '#account'); await shot('S13-account');
   await btn('Delete my data').click(); await btn('Delete').click();
-  await page.waitForURL(u => /#\/?$/.test(u.toString()) || u.hash === '' || u.hash === '#/');
+  await page.waitForURL(u => u.hash === '' || u.hash === '#');
   check('F06 delete returns to welcome', await vis(page.getByText('Stronger by the time they wake.')));
 
   // Keyboard: quick check reachable by Tab
-  await page.goto(base + '#/');
+  await page.goto(base);
   await page.keyboard.press('Tab');
   check('Keyboard focus reaches start link', await page.evaluate(() => document.activeElement?.textContent?.includes('Start the free week')));
 
   // Dark mode render
   const dark = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, colorScheme: 'dark' });
   const dp = await dark.newPage();
-  await dp.goto(base + '#/');
+  await dp.goto(base);
   await dp.screenshot({ path: `${shots}/S01-welcome-dark.png`, fullPage: true });
   const bg = await dp.evaluate(() => getComputedStyle(document.body).backgroundColor);
   check('Dark mode background', bg === 'rgb(20, 33, 31)', bg);
@@ -163,7 +163,7 @@ const check = (id, ok, note = '') => { results.push({ id, ok, note }); console.l
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
   check('No horizontal scroll at 1440', !overflow);
   await page.setViewportSize({ width: 320, height: 700 });
-  await page.goto(base + '#/');
+  await page.goto(base);
   const overflow320 = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
   check('No horizontal scroll at 320', !overflow320);
 

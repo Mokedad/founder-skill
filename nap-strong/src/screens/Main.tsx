@@ -39,14 +39,14 @@ export function Today() {
         <div className="card accent">
           <h2>32 sessions done.</h2>
           <p className="muted">Do a final self-check to see how far you've come.</p>
-          <a className="btn primary" href="#/self-check">Final self-check</a>
+          <a className="btn primary" href="#self-check">Final self-check</a>
         </div>
       ) : locked ? (
         <div className="card accent">
           <span className="eyebrow">Free week done</span>
           <h2>Keep going: weeks 2 to 8</h2>
           <p className="muted">One payment, no subscription. Pick up exactly where you are.</p>
-          <a className="btn primary" href="#/unlock">See what's included</a>
+          <a className="btn primary" href="#unlock">See what's included</a>
         </div>
       ) : (
         <div className="card accent">
@@ -58,9 +58,9 @@ export function Today() {
           <p className="small muted">
             {movesFor(day, version).map(m => m.name).join(' · ')}
           </p>
-          <a className="btn primary" href={`#/session/${day}`}>{todayDone ? 'Do another session' : 'Start'}</a>
+          <a className="btn primary" href={`#session-${day}`}>{todayDone ? 'Do another session' : 'Start'}</a>
           {version === 'full' && (
-            <a className="btn ghost" href={`#/session/${day}?short`}>Only 5 minutes today</a>
+            <a className="btn ghost" href={`#session-${day}-short`}>Only 5 minutes today</a>
           )}
         </div>
       )}
@@ -86,7 +86,7 @@ export function Today() {
         <div className="card">
           <h3>Tummy gap self-check due</h3>
           <p className="small muted">One minute, every 2 weeks.</p>
-          <a className="btn secondary" href="#/self-check">Do it now</a>
+          <a className="btn secondary" href="#self-check">Do it now</a>
         </div>
       )}
 
@@ -94,7 +94,7 @@ export function Today() {
         <div className="card">
           <h3>Weekly check-in</h3>
           <p className="small muted">{hasReply ? 'Thanks, your answer is in.' : 'One question from me about your week.'}</p>
-          <a className="btn secondary" href="#/checkin">{hasReply ? 'See check-in' : 'Answer'}</a>
+          <a className="btn secondary" href="#checkin">{hasReply ? 'See check-in' : 'Answer'}</a>
         </div>
       )}
     </Page>
@@ -129,7 +129,7 @@ export function ProgramMap() {
                   const cls = 'dot' + (done ? ' done' : d === current ? ' current' : '');
                   const label = `Session ${d}${done ? ', done' : locked ? ', locked' : d === current ? ', next' : ''}`;
                   return open ? (
-                    <a key={d} className={cls} href={`#/session/${d}`} aria-label={label} />
+                    <a key={d} className={cls} href={`#session-${d}`} aria-label={label} />
                   ) : (
                     <span key={d} className={cls} aria-label={label} role="img" />
                   );
@@ -173,7 +173,7 @@ export function Progress() {
         {checks.length === 0 ? (
           <>
             <p className="small muted">No self-checks yet.</p>
-            <a className="btn secondary" href="#/self-check">Do your first</a>
+            <a className="btn secondary" href="#self-check">Do your first</a>
           </>
         ) : (
           <table className="small" style={{ width: '100%', borderCollapse: 'collapse' }}>

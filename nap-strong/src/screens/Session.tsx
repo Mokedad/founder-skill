@@ -54,7 +54,7 @@ export function SessionPlayer({ day }: { day: number }) {
 
   async function finish(stoppedEarly = false) {
     await completeSession({ day, version, easierMoves: [...easier], painMoves: pain });
-    go(`feel/${day}${stoppedEarly || pain.length ? '?pain' : ''}`);
+    go(`feel-${day}${stoppedEarly || pain.length ? '-pain' : ''}`);
   }
 
   function toggleEasier() {

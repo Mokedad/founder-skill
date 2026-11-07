@@ -22,7 +22,7 @@ export function Welcome() {
           <p><strong>Pay once.</strong> First week free, then a one-off price. No subscription, nothing to cancel.</p>
         </div>
       </div>
-      <a className="btn primary block" href="#/check">Start the free week</a>
+      <a className="btn primary block" href="#check">Start the free week</a>
       <p className="small muted">
         Takes 2 minutes. Your answers stay on this phone in this prototype. Check with your GP or physio before starting
         any exercise after birth.

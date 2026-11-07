@@ -1,7 +1,13 @@
 import { useEffect, useState, type ReactNode } from 'react';
 
 export function useRoute(): string[] {
-  const read = () => window.location.hash.replace(/^#\/?/, '').split('?')[0].split('/').filter(Boolean);
+  // Routes are plain names (#today, #session-5, #session-5-short, #feel-5-pain): the artifact host only passes plain #names.
+  const read = () => {
+    const h = window.location.hash.replace(/^#\/?/, '');
+    const m = h.match(/^(session|feel)-(\d+)(?:-(short|pain))?$/);
+    if (m) return [m[1], m[2]];
+    return h ? [h] : [];
+  };
   const [parts, setParts] = useState(read);
   useEffect(() => {
     const on = () => {
@@ -15,12 +21,11 @@ export function useRoute(): string[] {
 }
 
 export function hasFlag(flag: string) {
-  const q = window.location.hash.split('?')[1] ?? '';
-  return q.split('&').includes(flag);
+  return window.location.hash.endsWith('-' + flag);
 }
 
 export function go(path: string) {
-  window.location.hash = '#/' + path.replace(/^\//, '');
+  window.location.hash = path ? '#' + path : '';
 }
 
 export function Page({ children, nav = true, label }: { children: ReactNode; nav?: boolean; label: string }) {
@@ -37,7 +42,7 @@ export function Page({ children, nav = true, label }: { children: ReactNode; nav
 export function Back({ to, label = 'Back' }: { to: string; label?: string }) {
   return (
     <div className="topbar">
-      <a className="btn ghost" href={'#/' + to}>
+      <a className="btn ghost" href={'#' + to}>
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
           <path d="M15 18l-6-6 6-6" />
         </svg>
@@ -84,7 +89,7 @@ function Nav() {
       <ul>
         {items.map(([id, label]) => (
           <li key={id}>
-            <a href={'#/' + id} aria-current={first === id ? 'page' : undefined}>
+            <a href={'#' + id} aria-current={first === id ? 'page' : undefined}>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 {ICONS[id]}
               </svg>

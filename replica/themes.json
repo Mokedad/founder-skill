@@ -1,0 +1,235 @@
+{
+ "_about": "Adapted from the replica-entrepreneur default for a postpartum core / pelvic floor fitness app (Every Mother research). Patterns are case-insensitive Python regexes.",
+ "request_patterns": [
+  "\\bi wish\\b",
+  "\\bplease add\\b",
+  "\\bwould be (nice|great|good|helpful)\\b",
+  "\\bwould love\\b",
+  "\\bneeds? (a|an|the|to|more)\\b",
+  "\\bno way to\\b",
+  "\\bthere'?s no (way|option)\\b",
+  "\\b(can'?t|cannot|unable to) (even )?(add|change|edit|set|choose|export|import|customi[sz]e|connect|undo|delete|turn off)\\b",
+  "\\b(missing|lacks|lacking)\\b",
+  "\\bdoesn'?t (have|support|let|allow)\\b",
+  "\\bif only\\b",
+  "\\bfeature request\\b",
+  "\\bwhy (can'?t|isn'?t|doesn'?t)\\b",
+  "\\bhoping for\\b",
+  "\\bwould like\\b"
+ ],
+ "themes": [
+  {
+   "id": "billing",
+   "label": "Billing, auto-renewal, cancelling",
+   "kind": "complaint",
+   "patterns": [
+    "\\bcharged\\b",
+    "\\bcharges?\\b",
+    "\\bauto.?renew",
+    "\\brenew(al|ed)?\\b",
+    "\\bcancel(l?ing|l?ed|lation)?\\b",
+    "\\bbilling\\b",
+    "\\bscam\\b",
+    "\\bcredit card\\b",
+    "\\bupdate your card\\b",
+    "\\bfree trial\\b",
+    "\\bday early\\b"
+   ]
+  },
+  {
+   "id": "refunds",
+   "label": "Customer service and refunds",
+   "kind": "complaint",
+   "patterns": [
+    "\\brefund",
+    "\\breturn policy\\b",
+    "\\bcustomer (service|support)\\b",
+    "\\bno (response|reply)\\b",
+    "\\bnever (replied|responded|heard back)\\b",
+    "\\bexchange\\b"
+   ]
+  },
+  {
+   "id": "price",
+   "label": "Price and subscription cost",
+   "kind": "complaint",
+   "patterns": [
+    "\\bexpensive\\b",
+    "\\boverpriced\\b",
+    "\\bpric(e|es|ey|ing)\\b",
+    "\\bsubscription\\b",
+    "\\bnot worth\\b",
+    "\\bcost(s|ly)?\\b",
+    "\\bper (month|year)\\b",
+    "\\bpaywall"
+   ]
+  },
+  {
+   "id": "bugs",
+   "label": "App bugs and crashes",
+   "kind": "complaint",
+   "patterns": [
+    "\\bcrash(es|ed|ing)?\\b",
+    "\\bbugs?\\b",
+    "\\bbuggy\\b",
+    "\\bglitch",
+    "\\bfreez(e|es|ing)\\b",
+    "\\bbroken\\b",
+    "\\b(doesn'?t|does not|stopped) work",
+    "\\bnot working\\b",
+    "\\berror\\b",
+    "\\blog ?in\\b"
+   ]
+  },
+  {
+   "id": "video",
+   "label": "Video playback and offline",
+   "kind": "complaint",
+   "patterns": [
+    "\\bvideos?\\b.*\\b(load|lag|buffer|stream)",
+    "\\bbuffer",
+    "\\blag(gy|s)?\\b",
+    "\\bwon'?t (load|play)\\b",
+    "\\boffline\\b",
+    "\\bdownload"
+   ]
+  },
+  {
+   "id": "too_long",
+   "label": "Sessions too long / no time",
+   "kind": "complaint",
+   "patterns": [
+    "\\btoo long\\b",
+    "\\bno time\\b",
+    "\\btime.?consuming\\b",
+    "\\bminutes?\\b",
+    "\\bkeep(ing)? up\\b",
+    "\\bconsisten"
+   ]
+  },
+  {
+   "id": "too_easy",
+   "label": "Too slow, boring or not challenging",
+   "kind": "complaint",
+   "patterns": [
+    "\\bboring\\b",
+    "\\brepetitive\\b",
+    "\\bnot challenging\\b",
+    "\\btoo easy\\b",
+    "\\bmore challeng",
+    "\\bslow\\b",
+    "\\bsame (exercises|workouts)\\b"
+   ]
+  },
+  {
+   "id": "difficulty_fit",
+   "label": "Levels don't fit (too hard / misleading levels)",
+   "kind": "complaint",
+   "patterns": [
+    "\\bmisleading\\b",
+    "\\btoo hard\\b",
+    "\\bmore than I could handle\\b",
+    "\\blevels? of difficulty\\b",
+    "\\b(light|moderate)\\b.*\\bworkouts?\\b",
+    "\\bdiscourag"
+   ]
+  },
+  {
+   "id": "results",
+   "label": "Results / didn't work",
+   "kind": "complaint",
+   "patterns": [
+    "\\bdidn'?t (work|help)\\b",
+    "\\bno (improvement|results|progress)\\b",
+    "\\bmore progress\\b",
+    "\\bgot worse\\b",
+    "\\bwaste\\b"
+   ]
+  },
+  {
+   "id": "dr_pf_results",
+   "label": "Diastasis / pelvic floor outcomes",
+   "kind": "complaint",
+   "patterns": [
+    "\\bdiastasis\\b",
+    "\\bdr\\b",
+    "\\bgap\\b",
+    "\\bpelvic floor\\b",
+    "\\bincontinen",
+    "\\bleak",
+    "\\bprolapse\\b",
+    "\\bfinger(s)? width"
+   ]
+  },
+  {
+   "id": "safety",
+   "label": "Safety and pain",
+   "kind": "complaint",
+   "patterns": [
+    "\\bpain(ful)?\\b",
+    "\\bhurt",
+    "\\binjur",
+    "\\bnot (appropriate|safe)\\b",
+    "\\bunsafe\\b",
+    "\\bcrunches\\b"
+   ]
+  },
+  {
+   "id": "csection",
+   "label": "C-section accessibility",
+   "kind": "request",
+   "patterns": [
+    "\\bc.?section\\b",
+    "\\bcesarean\\b",
+    "\\bcaesarean\\b",
+    "\\bscar\\b"
+   ]
+  },
+  {
+   "id": "coaching",
+   "label": "Coaching, physio access and support",
+   "kind": "request",
+   "patterns": [
+    "\\bcoach",
+    "\\bphysio",
+    "\\bphysical therap",
+    "\\bpt\\b",
+    "\\bask (a|an) (expert|question)\\b",
+    "\\bpersonali[sz]"
+   ]
+  },
+  {
+   "id": "variety",
+   "label": "Content variety",
+   "kind": "request",
+   "patterns": [
+    "\\bvariety\\b",
+    "\\bmore (workouts|exercises|options|content)\\b",
+    "\\bnew (workouts|content)\\b"
+   ]
+  },
+  {
+   "id": "tracking",
+   "label": "Progress tracking",
+   "kind": "request",
+   "patterns": [
+    "\\btrack(ing|er)?\\b",
+    "\\bmeasure(ment)?s?\\b",
+    "\\bprogress (photos|pictures)\\b",
+    "\\bhistory\\b",
+    "\\bstreak"
+   ]
+  },
+  {
+   "id": "community",
+   "label": "Community",
+   "kind": "request",
+   "patterns": [
+    "\\bcommunity\\b",
+    "\\bfacebook group\\b",
+    "\\bother (moms|mums|mothers)\\b",
+    "\\bforum\\b"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+feature,area,priority,original,clone,notes
+Quick check with red-flag screen,onboarding,must,partial,yes,
+GP clearance and weeks-postpartum gate,onboarding,must,unclear,yes,
+C-section path,onboarding,should,unclear,partial,flagged in quick check; separate first weeks not written yet
+Tummy gap self-check with history,tracking,must,yes,yes,
+Self-check due every 2 weeks,tracking,should,unclear,yes,
+Today screen with one session,core,must,yes,yes,
+15-minute session player with timer,core,must,yes,yes,
+5-minute version of every session,core,must,partial,yes,
+Easier option on every move,core,must,unclear,yes,
+This hurts button that stops and logs,safety,must,no,yes,
+How did it feel check after session,core,must,no,yes,
+Next session adapts to answers,core,should,no,yes,"core moves start easier after pain, too hard, or 2 flagged sessions; rules are drafts for the physio"
+Pick up where you left off (no reset),core,must,unclear,yes,
+8-week program map,core,must,yes,yes,
+Progress screen,tracking,must,yes,yes,
+Free week then unlock,billing,must,no,yes,simulated unlock
+Pay once no auto-renew,billing,must,no,partial,demo unlock only; Stripe needs the founder's account
+14-day refund line,billing,must,no,yes,
+Group of mums starting same week,community,should,unclear,partial,posts stay on the phone; real group needs a backend
+Weekly founder check-in,community,should,no,partial,sample message; replies saved on the phone
+Reminder time setting,account,could,unclear,partial,setting saved; no notifications sent
+Export my data,account,could,unclear,yes,copy to clipboard
+Delete my data,account,must,unclear,yes,
+Offline downloads,core,should,unclear,no,needs video hosting
+Real login and sync,backend,must,yes,no,needs the founder's Supabase account
+Real payment,billing,must,yes,no,needs the founder's Stripe account
+Exercise videos,content,must,yes,no,needs filming and physio sign-off
+Every Mother program content and videos,content,could,yes,skip,their content: never copied
